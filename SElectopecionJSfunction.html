@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    
+
+    var my_input1 = document.getElementById('my_input1').value;
+    var my_input2 = document.getElementById('my_input2').value;
+        
+    var my_input3 = document.getElementById('my_input3').value;
+    var select = document.getElementById('select').value;
+    function calc()
+    {
+    
+      if (select.value == "plus")
+      {
+        my_input3.value= Number(my_input1.value) + Number(my_input2.value);
+    }else if (select.value=="mins"){
+        my_input3.value= Number(my_input1) - Number(my_input2);
+        
+    }
+    else
+     {
+        my_input3.value= Number(my_input1)* Number(my_input2);
+        
+    }
+
+}
+</script>
+<body>
+    <input type="text" id="my_input1" />
+    <input type="text" id="my_input2" />
+    <input type="button" value="Add Them Together" onclick="calc()" />
+    <input type="text" id="my_input3" />
+    <select id="select">
+        <option value="plus">+</option>
+        <option value="mins">-</option>
+        <option value="mult">*</option>
+    </select>
+
+</body>
+</html>

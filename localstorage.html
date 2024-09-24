@@ -1,0 +1,26 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <input type="text" class="key" id=""> <button onclick="Addkey();">Add key</button>  <br>
+ <input type="text" class="val" id=""> <button onclick="Addval();">Add value</button>
+</body>
+<script>
+    let key;
+    function Addkey()
+    {
+          let key =document.querySelector(".key").value;
+          localStorage.getItem(key,"");
+        }
+        function Addval()
+    {
+          let val =document.querySelector(".val").value;
+          localStorage.getItem(key,val);
+        }
+  
+    console.log("key","val");
+</script>
+</html>

@@ -1,0 +1,141 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+ .formstyle {
+width: 300px;
+height: 530px;
+margin: auto;
+border: 3px solid purple; 
+border-radius: 5px;
+padding: 20px;
+}
+button {
+  width: 20px;
+    background-color: #8A2BE2;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+    
+    margin: 1px;
+    font-size: 15px;
+    margin-left: 37px;
+    height: 45px;
+    width: 46px;
+ 
+    margin-top: 7px;
+}
+
+ 
+#calculation{
+  width: 234px;
+    border: 2px solid #0d0d0e;
+    border-radius: 3px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 32px;
+    background-color: #8A2BE2;
+}
+#clear{
+  width: 46px;
+    border: 3px solid black;
+    border-radius: 3px;
+    padding: 6px;
+    background-color: #000000;
+    color: white;
+    margin-left: 37px;
+}
+</style>
+<body>
+    <script>
+function one() {
+  document.getElementById('calculation').value += 1;
+}
+function two() {
+  document.getElementById('calculation').value += 2;
+}
+function three() {
+  document.getElementById('calculation').value += 2;
+}
+function three() {
+  document.getElementById('calculation').value += 3;
+}
+function four() {
+  document.getElementById('calculation').value += 4;
+}
+function five() {
+  document.getElementById('calculation').value += 5;
+  
+}
+function six() {
+  document.getElementById('calculation').value += 6;
+  
+}
+function seven() {
+  document.getElementById('calculation').value += 7;
+  
+}
+function eight() {
+  document.getElementById('calculation').value += 8;
+  
+}
+function nine() {
+  document.getElementById('calculation').value += 9;
+  
+}
+
+function plus() {
+  document.getElementById('calculation').value += "+";
+  
+}
+
+ function Clear() { 
+            document.getElementById("calculation").value = "" 
+        } 
+
+function minis() {
+  document.getElementById('calculation').value += "-";
+  
+}
+function divi() {
+  document.getElementById('calculation').value += "/";
+  
+}
+function multi() {
+  document.getElementById('calculation').value += "*";
+  
+}
+
+function calculation() {
+  document.getElementById('calculation').value = eval(document.getElementById('calculation').value);
+  
+}
+
+    </script>
+    <div class="formstyle">
+    <input type="text" id="calculation"><br><br>
+    <button onclick="one();">1</button>
+    <button onclick="two();">2</button>
+    <button onclick="three();">3</button><br>
+    <button onclick="four();">4</button>
+    <button onclick="five();">5</button>
+    <button onclick="six();">6</button><br>
+    <button onclick="seven();">7</button>
+    <button onclick="eight();">8</button>
+    <button onclick="nine();">9</button><br>
+    <button onclick="plus();">+</button>
+    <button  onclick="minis();">-</button>
+    <button  onclick="divi();">/</button>
+    <button  onclick="multi();">*</button>
+    <button onclick="calculation();">=</button>
+    <button value="c" onclick="Clear()">Clear</button>
+   
+    
+    <button><</button>
+  </div>
+</body>
+</html>

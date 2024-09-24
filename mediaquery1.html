@@ -1,0 +1,51 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+    margin: 0px;
+     padding: 0px;
+    
+     }
+     .header-website{
+   text-align: center;
+   background-color: aquamarine;
+    
+     }
+     .header-tablet{
+   text-align: center;
+   background-color: rgb(25, 163, 21);
+    
+     }
+     .header-mobile{
+   text-align: center;
+   background-color: rgb(185, 26, 60);
+    
+     }
+     @media (min-width: 500px and max-width:1000px  ) {
+        .header-website {
+            display: none;
+        }
+        .header-tablet {
+            display: block;
+        }
+    }
+    @media (max-width:450px  ) {
+        .header-mobile {
+           display: block;
+        }
+       .header-website {
+            display: none;
+        }
+    }
+    
+</style>
+<body>
+    <div class="header-website">website</div>
+    <div class="header-tablet">tablet</div>
+    <div class="header-mobile">mobile</div>
+</body>
+</html>

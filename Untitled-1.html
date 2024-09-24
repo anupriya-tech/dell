@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <title>Document</title>
+  <style>
+ * {
+    margin: 0px;
+     padding: 0px;
+   
+     }
+.transition {
+    text-align: center;
+    margin-top: 1rem;
+    border: 1px solid black;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;   
+     }
+.parent {
+    position: relative;
+    width: 16rem;
+    border: 1px solid gray;
+   
+     }
+     .laptop {
+    width: 100%;
+    line-height: 1.9rem;
+    position:absolute;
+    top: 2rem;
+    transition: 0.4rem;   
+     }
+     .parent >.parent div:nth-child(1)
+     {
+    font-size: 40px;
+    margin-bottom: 0.5rem;
+     }
+     .laptop div:nth-child(3)
+     {
+    opacity: 0;
+    transition: 0.3s;
+     }
+     .laptop:hover
+     {
+      top: 0.9rem;
+     }
+     .laptop:hover div:nth-child(3)
+     {
+  opacity: 1;
+     }
+
+  </style>
+</head>
+<body>
+  <section class="transition">
+    <!--transition  -->
+    <div class="parent">
+    <div class="laptop">
+      <div><i class="fa-solid fa-laptop"></i></div>
+      <div>Versatile Performance </div>
+      <div>for home</div>
+      <div>Create social content</div>
+      </div>
+    </div>
+    <div class="parent">
+      <div class="laptop">
+        <div><i class="fa-solid fa-laptop"></i></div>
+        <div>Small Business Productivity </div>
+        <div>for home</div>
+        <div>Collaborate with video conferencing</div>
+        </div>
+      </div>
+      <div class="parent">
+        <div class="laptop">
+          <div><i class="fa-solid fa-laptop"></i></div>
+          <div>Creators and Creativity </div>
+          <div>for home</div>
+          <div>Be productive anywhere</div>
+          </div>
+        </div>
+  </section>
+</body>
+</html>
+</html>
+
+  
+  
+  
+  
+  

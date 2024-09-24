@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="text" id="one" />
+    <select name="" id="select">
+      <option value="plus">+</option>
+      <option value="minus">-</option>
+      <option value="mult">x</option>
+    </select>
+    <input type="text" id="two" />
+    <button onclick="Calc()">=</button>
+
+    <input type="text" id="three" />
+    <script>
+      function Calc() {
+        var first_val = document.getElementById("one");
+        var second_val = document.getElementById("two");
+        var third_val = document.getElementById("three");
+        var select = document.getElementById("select");
+
+        if (first_val.value == 0 || second_val.value == 0) {
+          alert("fields cannot be empty");
+        } else if (isNaN(first_val.value) || isNaN(second_val.value)) {
+          alert("string");
+        } else if (select.value == "plus") {
+          third_val.value = Number(first_val.value) + Number(first_val.value);
+        } else if (select.value == "minus") {
+          third_val.value = Number(first_val.value) - Number(first_val.value);
+        } else if (select.value == "mult") {
+          third_val.value = Number(first_val.value) * Number(first_val.value);
+        }
+      }
+      let VAlue = 7;
+
+      console.log(isNaN(VAlue));
+    </script>
+  </body>
+</html>

@@ -1,0 +1,655 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+    <link rel="stylesheet" href="dell.css">
+</head>
+<script>
+  function Like(n) {
+    document.querySelectorAll(".fa-heart")[n].classList.toggle("fa-heart-red");
+  }
+  function Canvas()  {
+       document.querySelector(".canvas-hide").classList.toggle("canvas-show");   
+       document.querySelector(".backdrop").classList.toggle("backdrop-show");
+    }
+    function Canvas1()  {
+      document.querySelector(".canvas-hide1").classList.toggle("canvas-show1");   
+    }
+  
+   
+</script>
+<body>
+    <header>
+        <!-- Write your comments here add bar-->
+        <div class="Canvas">
+          <div class="canvas-icone"><i class="fa-solid fa-bars" onclick="Canvas()"></i></div>
+          
+         <div class="canvas-hide">
+          
+         
+          <div>Laptops<i class="fa-solid fa-angle-right" onclick="Canvas1()"></i>
+            <div><span>Back<i class="fa-solid fa-backward" onclick="Canvas()"></i></span></div>
+          </div>
+          <div class="Canvas1">
+            <div class="canvas-hide1">
+              <div><span>Back<i class="fa-solid fa-backward" onclick="Canvas1()"></i></span></div>
+            <div><span>workstations<i class="fa-solid fa-angle-right"></i></span></div>
+            
+            <div><span>Thin Clients<i class="fa-solid fa-angle-right"></i><span></div>
+            <div><span>Services<span></span></div>
+            <div><span>Data storage</span></div>
+            <div><span>Data Protection</span></div>
+          </div>
+        </div>
+
+          <div>Desktop and all in one<i class="fa-solid fa-angle-right"></i></div>
+          <div>Gaming<i class="fa-solid fa-angle-right"></i></div>
+          <div>workstations</div>
+          <div>Thin Clients</div>
+          <div>Services</div>
+          <div>Data storage</div>
+          <div>Data Protection</div>
+         </div>
+        </div>
+           <!-- Write your comments here -->
+        <div class="left">
+         
+            <div><img src="logo.jpg" alt=""></div>
+            <div class="search">
+<input  placeholder="Search Dell" type="text" value="" name="Search Dell" />
+<img class="search-pic"src="images.png" width="25px"/>
+    </div>
+        </div>
+
+        <div class="right">
+        <div class="sign"> 
+            <i class="fa-solid fa-user"></i>Sign In
+        <i class="fa-solid fa-angle-down"></i>
+       <div class="sign-menu">
+        <div class="sign-menu-wrapper">
+            <h3>Welcome to Dell</h3><br>
+            <h4>My Account</h4><br>
+            <ul>
+            <li>Place order quickly and easily</li>
+            <li>View order and track your shipping status</li>
+            <li>Create and access a list of your Products</li>
+        </ul>
+        <button>Sign in</button></br></br>
+        <button>Create annount</button></br></br>
+        <button>Premeri sign in</button></br></br>
+      
+        </div>
+
+       </div>
+    </div>
+
+        <div><i class="fa-solid fa-headphones"></i>Contact Us</div>
+        <div>
+            <i class="fa-brands fa-dribbble"></i>IN/EN
+            <i class="fa-solid fa-angle-down"></i></div>
+            
+        <div><i class="fa-solid fa-cart-shopping"></i>
+          cart
+            <i class="fa-solid fa-angle-down"></i></div>
+        </div>
+       </header>
+<nav>
+    
+    <ul>
+        <li>Artificial Intelligence</li>
+        
+       
+            
+            <li>Products<i class="fa-solid fa-angle-down"></i></li>
+        <!-- Write your comments here -->
+        <div class="product">
+            <div class="product-menu">
+                 <!-- Write your comments here -->
+                <div class="laptop">Laptop
+                     <i class="fa-solid fa-angle-right"></i>
+
+                     <div class="laptop-menu">
+                    <p>for home</p>
+                    <p>for bussines</p>
+                </div>
+                    </div>
+                     <!-- Write your comments here -->
+                <div>Desktop and all in ones <i class="fa-solid fa-angle-right"></i></div>
+                <div>Gaming <i class="fa-solid fa-angle-right"></i></div>
+                <div>Work stations</div>
+                <div>Think unite</div>
+                <div>Apex</div>
+                <div>servers</div>
+                <div>Data storage</div>
+                <div>Data protection</div>
+                <div>Networking</div>
+                <div>Hyperconverged intrastructure <i class="fa-solid fa-angle-right"></i></div>
+                <div>Electronics and accessories <i class="fa-solid fa-angle-right"></i></div>
+            
+            </div>
+
+        </div>
+    
+        <!-- Write your comments here -->
+      
+
+        <li>Solutions<i class="fa-solid fa-angle-down"></i></li>
+        <li>Services<i class="fa-solid fa-angle-down"></i></li>
+        <li>Support<i class="fa-solid fa-angle-down"></i></li>
+        <li>Deals<i class="fa-solid fa-angle-down"></i></li>
+        <li>Find store<i class="fa-solid fa-angle-down"></i></li>
+    </ul>
+</nav>
+<!-- slider start -->
+<style>
+  #carouselid{
+           height:42rem;
+        }
+
+ </style>
+<div id="carouselid" >
+  <div id="carouselExampleIndicators" class="carousel slide">
+   <div class="carousel-indicators">
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+   </div>
+   <div class="carousel-inner">
+     <div class="carousel-item active">
+       <img src="lap.AVIF" class="d-block w-100" alt="...">
+     </div>
+     <div class="carousel-item">
+       <img src="lapphoto.AVIF" class="d-block w-100" alt="...">
+     </div>
+     <div class="carousel-item">
+       <img src="lapphoto1.AVIF" class="d-block w-100" alt="...">
+     </div>
+   </div>
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Previous</span>
+   </button>
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+     <span class="carousel-control-next-icon" aria-hidden="true"></span>
+     <span class="visually-hidden">Next</span>
+   </button>
+ </div> 
+</div>
+ <!-- slider end -->
+<!-- card part starts here -->
+<div class="middel">
+
+    <div class="image">
+        <div class="product-name">
+          <span><b>Versatile Performance </b></span><br>
+          Starting at ₹36,589.99 <br>
+        
+    </div>
+       
+        <div class="product-image ">
+          <div class="card"><i class="fa-solid fa-heart" onclick="Like(0)"></i></div>
+            <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        </div>
+    
+        <!-- Write your comments here -->
+        <div class="image1">
+          <div class="product-name">
+            <span><b>Versatile Performance </b></span><br>
+            Starting at ₹36,589.99 <br>
+          
+      </div>
+         
+      <div class="product-image ">
+        <div class="card"><i class="fa-solid fa-heart" onclick="Like(1)"></i></div>
+          <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+          </div>
+          </div>
+    
+          <!-- Write your comments here -->
+        <div class="image2">
+          <div class="product-name">
+            <span><b>Versatile Performance </b></span><br>
+            Starting at ₹36,589.99 <br>
+          
+      </div>
+         
+      <div class="product-image ">
+        <div class="card"><i class="fa-solid fa-heart" onclick="Like(2)"></i></div>
+          <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+          </div>
+          </div>
+          
+          <!-- Write your comments here -->
+        <div class="image2">
+            <div class="product-name">
+              <span><b>Versatile Performance </b></span><br>
+              Starting at ₹36,589.99 <br>
+            
+        </div>
+           
+        <div class="product-image ">
+          <div class="card"><i class="fa-solid fa-heart" onclick="Like(3)"></i></div>
+            <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+            </div>
+            
+
+
+</div>
+
+<!-- card Write your comments here -->
+
+<div class="middel">
+
+    <div class="image">
+        <div class="product-name">
+          <span><b>Versatile Performance </b></span><br>
+          Starting at ₹36,589.99 <br>
+        
+    </div>
+       
+        <div class="product-image ">
+          <div class="card"><i class="fa-solid fa-heart" onclick="Like(4)"></i></div>
+            <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+        </div>
+    
+        <!-- Write your comments here -->
+        <div class="image1">
+          <div class="product-name">
+            <span><b>Versatile Performance </b></span><br>
+            Starting at ₹36,589.99 <br>
+          
+      </div>
+         
+      <div class="product-image ">
+        <div class="card"><i class="fa-solid fa-heart" onclick="Like(5)"></i></div>
+          <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+          </div>
+          </div>
+    
+          <!-- Write your comments here -->
+        <div class="image2">
+          <div class="product-name">
+            <span><b>Versatile Performance </b></span><br>
+            Starting at ₹36,589.99 <br>
+          
+      </div>
+         
+      <div class="product-image ">
+        <div class="card"><i class="fa-solid fa-heart" onclick="Like(6)"></i></div>
+          <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+          </div>
+          </div>
+          
+          <!-- Write your comments here -->
+        <div class="image2">
+            <div class="product-name">
+              <span><b>Versatile Performance </b></span><br>
+              Starting at ₹36,589.99 <br>
+            
+        </div>
+           
+        <div class="product-image ">
+          <div class="card"><i class="fa-solid fa-heart" onclick="Like(7)"></i></div>
+            <div class="kart"><i class="fa-solid fa-cart-shopping"></i></div>
+            </div>
+            </div>
+            
+
+
+
+
+
+
+
+</div>
+<!-- FAQ SECTION -->
+<style>
+  *{
+      margin: 0;
+      padding: 0;
+  }
+   .AllFAQ{
+      border: 1px solid black;
+      background-color: rgb(222, 220, 216);
+     
+     
+   }
+   @media (max-width: 768px) {
+
+    .AllFAQ {
+      width: 90%;
+    height: 38%;
+   
+    margin-top: 17%;
+}
+
+
+}
+@media (max-width: 480px) {
+
+  .AllFAQ {
+      width: 128%;
+   
+}
+#carouselid {
+    height: 20rem;
+    width: 41rem;
+}
+}
+   .TagFAQ {
+      
+      width: 15rem;
+      padding: 0.5rem;
+      background-color: rgb(247, 241, 241);
+     border-radius: 25px;
+      color: rgb(13, 30, 51);
+      text-align: center;
+      margin: auto;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+      font-weight: 900;
+   }
+
+  .FAQ {
+    background-color: rgb(13, 30, 51);
+    color: white;
+    padding: 1rem;
+    height: 3.5rem;
+    overflow: hidden;
+    transition: 0.5s;
+    margin: 2rem;
+    border-radius: 10px;
+    
+
+    
+  }
+  .FAQ_SHOW {
+      height: 8rem;
+      background-color:rgb(80, 80, 80);
+      
+  }
+
+  .FAQ>p {
+      margin-top: 2rem;
+      
+  }
+</style>
+</head>
+<body>
+<div class="AllFAQ"> 
+  <div class="TagFAQ">FAQ's</div>
+<div class="FAQ" onclick="acc (0)">
+  <h3 >1. How do I track my Dell order?</h3>
+  <p>Go to the Dell Order Status page and enter your order number and email to view the latest updates on your order. </p>
+</div>
+
+<div class="FAQ"  onclick="acc (1)">
+  <h3>2. What is Dell’s return policy?</h3>
+  <p>Dell offers a 30-day return policy for most products. To initiate a return, visit the “Order Status” page or contact Dell Customer Support for assistance. Make sure the product is in its original condition and packaging.</p>
+</div>
+
+<div class="FAQ" onclick="acc (2)">
+  <h3 >3. How do I get technical support for my Dell product?</h3>
+  <p> For technical support, visit the Dell Support website and enter your service tag or product details. You can access troubleshooting guides, driver updates, or chat with a support agent.
+  </p>
+</div>
+
+<div class="FAQ" onclick="acc (3)">
+  <h3 >4. What warranty options are available for Dell products?</h3>
+  <p>Dell offers various warranty options including Standard, ProSupport, and Premium Support. Details about each plan are available on the “Warranty & Services” page of the Dell website.</p>
+</div>
+
+<div class="FAQ" onclick="acc (4)">
+  <h3 >5. How can I upgrade or customize my Dell PC?</h3>
+  <p>To upgrade or customize your Dell PC, visit the “Customize & Buy” section of the Dell website. You can choose from different configurations for components such as memory, storage, and graphics.
+
+  </p>
+</div>
+</div>
+
+<script>
+  function acc (n){
+      document.querySelectorAll(".FAQ")[n].classList.toggle("FAQ_SHOW")
+  }
+</script>
+
+
+ <!-- FAQ END -->
+<!-- step footer start-->
+<section class="section_blue">
+
+  <div class="section_blue_up">
+      <div class="section_blue_up1">
+          <div><img src="footerimage1.jpg" alt="" width="175px" height="100%"></div>
+      </div>
+          <div class="section_blue_up2">
+              <span>Customers report Dell APEX drives more efficient and <br> effective IT operations with upto:</span> <br> <br>
+              <p>Explore Business valure of Dell APEX</p>
+          </div>
+
+          <div class="section_blue_up3">
+              <div class="percent">
+                  <div class="per64"><span>0%</span></div>
+                  <p >Faster to Display <br> new capacity<p>
+              </div>
+              <div class="percent">
+                  <div class="per39"><span>0%</span></div>
+                  <p>lower 3 year cost <br> of operations<p>
+              </div> 
+              <div class="percent">
+                  <div class="per40"><span>59%</span></div>
+                  <p>reduce of unplanned  <br> outages per year<p>
+              </div>
+              
+              
+          </div>
+
+
+<script>
+   val = 0;
+  function counter2() {
+    
+  if(val<67){
+      
+      document.querySelector(".per64 span").innerHTML=++val;
+     
+
+  }
+}
+setInterval(counter2,87);
+val1 = 0;
+  function counter1() {
+    
+  if(val1<87){
+      
+      document.querySelector(".per39 span").innerHTML=++val1;
+     
+
+  }
+}
+setInterval(counter1,67);
+val2 = 58;
+  function counter() {
+    
+  if(val2<100){
+      
+      document.querySelector(".per40 span").innerHTML=++val2;
+     
+
+  }
+}
+setInterval(counter,100);
+
+
+</script>
+
+<!-- display form  starts here -->
+
+
+    <div class="info">
+       <button class="solid" onclick="toggleForm()"><i class="fa-solid fa-xmark"></i></button> 
+       
+     
+    <style>
+        .error { color: red; }
+        button, input, optgroup, select, textarea {
+   
+    width: 245px;
+}
+    </style>
+
+
+
+    
+<form action="" target="_blank">
+  <label for="name">First Name:</label> <br>
+  <input type="text" id="name"><br>
+  <span id="name-error" class="error"></span>
+  <br>
+  <label for="pnumber">Phone Number:</label> <br>
+  <input type="text" id="pnumber"><br>
+  <span id="pnumber-error" class="error"></span>
+  <br>
+  <label for="emailid">Email:</label> <br> 
+  <input type="text" id="emailid"><br>
+  <span id="email-error" class="error"></span>
+  <br>
+  
+  <label for="password">Password:</label> <br>
+  <input type="password" id="password"><br>
+  <span id="password-error" class="error"></span>
+  <br><br>
+  
+  <button type="button" onclick="validation()">Submit</button>
+
+  </div>
+</form>
+
+<script>
+  function validation() {
+      var name = document.getElementById('name').value;
+      var pnumber = document.getElementById('pnumber').value;
+      var emailid = document.getElementById('emailid').value;
+      var password = document.getElementById('password').value;
+  
+      var pnumberRegex = /^[0-9]+$/;
+      var fnameRegex = /^[A-Za-z. ]{3,20}$/;
+      var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+      var passwordRegex = /^(?=.*[0-9])(?=.*[!@#$%^&*])[A-Za-z0-9!@#$%^&*]{8,15}$/;
+  
+      var isValid = true;
+  
+      // Validate Phone Number
+      if (pnumberRegex.test(pnumber)) {
+          document.getElementById('pnumber-error').textContent = "";
+      } else {
+          document.getElementById('pnumber-error').textContent = "Phone number is invalid";
+          isValid = false;
+      }
+  
+      // Validate First Name
+      if (fnameRegex.test(name)) {
+          document.getElementById('name-error').textContent = "";
+      } else {
+          document.getElementById('name-error').textContent = "Name is invalid";
+          isValid = false;
+      }
+  
+      // Validate Email
+      if (emailRegex.test(emailid)) {
+          document.getElementById('email-error').textContent = "";
+      } else {
+          document.getElementById('email-error').textContent = "Email is invalid";
+          isValid = false;
+      }
+  
+      // Validate Password
+      if (passwordRegex.test(password)) {
+          document.getElementById('password-error').textContent = "";
+      } else {
+          document.getElementById('password-error').textContent = "Password is invalid";
+          isValid = false;
+      }
+  
+      return isValid;
+  }
+ 
+        function toggleForm() {
+            document.querySelector(".info").classList.toggle("visible");
+        }
+setTimeout(toggleForm,3000);
+
+
+</script>
+
+<!-- footer starts here -->
+
+<div class="footer">
+   
+    <div class="col1">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Store Locator</li>
+            <li>Contact Us</li>
+        </ul>
+        </div>
+        <div class="col3">
+    <ul>
+        <li>Terms & Conditions</li>
+        <li>Returns Policy</li>
+        <li>Privacy Policy</li>
+        <li>Track Your Order</li>
+        <li>Return & Exchange</li>
+    </ul>
+    </div>
+    
+    
+    
+    
+    
+    <div class="nav-footer">
+        <ul>
+            <li>Support/Whatsapp : +91 9528329262</li>
+            <li>info@lamonk.in</li>
+            <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-youtube"></i>
+            
+        </div>
+        </ul>
+    </div>
+    
+        
+        <style>
+          #email
+          {
+            width: 186px;
+}
+         
+        </style>
+      
+        <div class="containe">
+        <p>Get updates by subscribe our weekly newsletter</p>
+        <h3>Sign Up Newsletter</h3>
+        <div class="newsletter"><input type="text" name="Enter your Email" id="email"><button id="btn-main">subscribe</button></div>
+    </div>
+    
+    
+    
+    
+        </div>
+
+</body>
+</html>

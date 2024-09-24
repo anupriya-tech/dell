@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<style>
+    * {
+    margin: 0px;
+     padding: 0px;
+    
+     }
+     .main {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 4rem 4rem 4rem 4rem 4rem; 
+    gap: 0.1rem;
+    
+     }
+     .one {
+    border: 1px solid black;
+    background-color: yellow;
+    grid-column: 1/4;
+    
+     }
+     .two {
+    border: 1px solid black;
+    background-color: rgb(79, 53, 114);
+    grid-column: 1/4;
+     }
+     .three {
+    border: 1px solid black;
+    background-color: rgb(128, 9, 54);
+    grid-row: 3/5;
+     }
+     .four {
+    border: 1px solid black;
+    background-color: rgb(50, 138, 221);
+   
+    grid-row: 3/5;
+     }
+     .five {
+    border: 1px solid black;
+    background-color: rgb(38, 163, 21);
+    grid-row: 3/5;
+     }
+     .six {
+    border: 1px solid black;
+    background-color: rgb(109, 11, 11);
+     grid-column: 1/4;
+     }
+
+
+</style>
+<body>
+    <div class="main">
+        <div class="one">Header</div>
+        <div class="two">Navaction</div>
+        <div class="three">three</div>
+        <div class="four">four</div>
+        <div class="five">five</div>
+        <div class="six">Footer</div>
+    </div>
+</body>
+</html>

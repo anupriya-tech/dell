@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+  function show()  {
+       document.querySelector(".faq-question").classList.toggle("faq-answer");   
+      
+    }
+   
+</script>
+<style>
+    * {
+    margin: 0px;
+     padding: 0px;
+    
+     }
+     
+    .faq-question {
+     
+ padding: 10px;
+ background-color: #f9f9f9;
+ border: 1px solid #ddd;
+ margin-bottom: 5px;
+   overflow: hidden;
+   transition: 0.3s;
+   overflow-y: scroll;
+   height: 0.7rem;
+     }
+     .faq-answer
+     {
+    
+  
+
+ height: 2rem;
+     }
+ 
+     
+
+</style>
+<body>
+ 
+    <div class="faq-question">
+    <div  onclick="show();">What is Lorem Ipsum?</div>
+    <div class="faq-answer" >Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>
+  </div>
+  <div class="faq-question">
+    <div onclick="show();">Why do we use it?</div>
+    <div class="faq-answer">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</div>
+  </div>
+
+  </div>  
+  
+</body>
+</html>
